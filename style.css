@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+nav, footer, header, aside {display: block;}
+    
+html, body{
+    font-size: 14px;
+    font-family: Rubik, sans-serif;
+    background: #e5e5e5;
+}
+
+
+
+.container {
+    width: 375px;
+    height: 812px;
+    display: block;
+    position: relative;
+    background: #fff;
+    margin: 60px;
+}        
+
+header {
+    /* display: flex; */
+    width: 375px;
+    height: 44px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 94.58%;
+    /* background: red; */
+}
+
+.time {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 20px/2 + 5.5px);
+    text-align: center;
+    letter-spacing: -0.24px;
+    font-size: 15px;
+}
+
+.connection {
+    position: absolute;
+    width: 17px;
+    height: 10.67px;
+    right: 64px;
+    top: 17.67px;
+}
+
+.wifi {
+    position: absolute;
+    width: 15.33px;
+    height: 11px;
+    right: 43.67px;
+    top: 17.33px;
+}
+
+.battery {
+    position: absolute;
+    width: 24.33px;
+    height: 11.33px;
+    right: 14.34px;
+    top: 17.33px;    
+}
+
+.rectangle {
+    width: 375px;
+    height: 48px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 44px;
+    bottom: 0%;
+    background: #FFFFFF;
+    /* overflow: scroll; */
+}
+
+.workout {
+    width: 80px;
+    height: 32px;
+    position: absolute;
+    left: 39.2%;
+    right: 39.47%;
+    top: 16.67%;
+    bottom: 16.67%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+.vector {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    left: 339px;
+    top: 16px;
+    bottom: 16px;
+}
+
+footer {
+    width: 375px;
+    height: 68px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 744px;
+    bottom: 0px;
+    background: #FFFFFF;
+    /* background: yellow; */
+}
+
+.workout-tab {
+    position: absolute;
+    width: 46px;
+    height: 52px;
+    left: 40px;
+    top: 8px;
+    bottom: 8px;
+    right: 289px;
+}
+
+.icon-tab1 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 7px;
+    right: 7px;
+    top: 0%;
+}
+
+.icon-tab1 img {
+    width: 26.67px;
+    height: 26.67px;
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+
+.text-tab1 {
+    width: 46px;
+    height: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color: #1DA8F4;
+}
+
+.activity-tab {
+    position: absolute;
+    width: 44px;
+    height: 52px;
+    left: 166px;
+    top: 8px;
+    bottom: 8px;
+    right: 165px;
+}
+
+.icon-tab2 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    top: 0%;
+}
+
+.icon-tab2 img {
+    width: 25.6px;
+    height: 22.93px;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 14.7%;
+    bottom: 14.7%;
+}
+
+.text-tab2 {
+    width: 44px;
+    height: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color: #94A3B6;
+}
+
+
+.setting-tab {
+    position: absolute;
+    width: 47px;
+    height: 52px;
+    left: 289px;
+    top: 8px;
+    bottom: 8px;
+    right: 39px;
+}
+
+
+.icon-tab3 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 296px;
+    right: 47px;
+    top: 8px;
+    bottom: 28px;
+}
+
+.icon-tab3 img {
+    width: 25.6px;
+    height: 25.6px;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+}
+
+.text-tab3 {
+    width: 47px;
+    height: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    position: absolute;
+    height: 18px;
+    left: 289px;
+    right: 39px;
+    bottom: 8px;
+    top: 42px;
+    text-align: center;
+    color: #94A3B6;
+}
+
+.plan {
+    width: 343px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #D5DFEC;
+    box-shadow: 0px 6px 12px rgba(213, 223, 236, 0.4);
+    border-radius: 8px;
+    margin: 0 16px;
+    list-style-type: none;
+}
+
+.plan1 {
+    position: absolute;
+    top: 108px;
+}
+.plan2 {
+    position: absolute;
+    top: 224px;
+}
+.plan3 {
+    position: absolute;
+    top: 340px;
+}
+.plan4 {
+    position: absolute;
+    top: 456px;
+}
+.plan5 {
+    position: absolute;
+    top: 572px;
+}
+.plan6 {
+    position: absolute;
+    top: 688px;
+}
+
+.plan img {
+    width: 11px;
+    height: 14px;
+    position: absolute;
+    left: 311px;
+    right: 21px;
+    top: 43px;
+    bottom: 43px;
+}
+.plan p {
+    width: 232px;
+    height: 44px;
+    position: absolute;
+    left: 77px;
+    top: 44px;
+    color: #94A3B6;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+.plan h3 {
+    width: 121px;
+    height: 28px;
+    position: absolute;
+    left: 77px;
+    top: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+}
+.min {
+    width: 61px;
+    height: 99px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(272.6deg, #0993F0 0%, #32BEF9 100%);
+    border-radius: 8px;
+}
+.min1 {
+    width: 29px;
+    height: 32px;
+    position: absolute;
+    left: 16px;
+    top: 26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text-min {
+    width: 24px;
+    height: 17px;
+    position: absolute;
+    left: 20px;
+    top: 57px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
